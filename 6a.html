@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Route</title>
+    <!-- Load Tailwind CSS for utility styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom font and simple background */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <!-- Main content card/container -->
+    <div class="bg-white p-10 md:p-16 rounded-xl shadow-2xl text-center border-t-4 border-emerald-500">
+        <!-- The "Hello World" message -->
+        <h1 class="text-6xl md:text-8xl font-extrabold text-gray-900 tracking-tight mb-4">
+            Hello World!
+        </h1>
+        
+        <!-- Subtitle acting as the simulated route info -->
+        <p class="text-xl text-emerald-600 font-semibold mt-4">
+            — Successfully loaded via the <span class="bg-emerald-100 px-2 py-1 rounded-md text-emerald-800">/route</span> —
+        </p>
+    </div>
+
+    <script>
+        // Simple script to demonstrate the page is dynamic
+        window.onload = function() {
+            console.log("The 'Hello World' route has been successfully rendered in the browser.");
+        };
+    </script>
+</body>
+</html>
